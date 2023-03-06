@@ -25,7 +25,6 @@ public class Reto8 {
             System.out.println("Digite el valor de cada uno de los productos: ");
             price = Lectura.nextInt();
             acum = acum + price;
-
         }
         System.out.println("Ingrese el valor con el que desea pagar el total de su compra: ");
         totalPay = Lectura.nextInt();
