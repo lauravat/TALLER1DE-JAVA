@@ -28,18 +28,19 @@ public class Reto9 {
             System.out.println(coin2);
             if (option1 == coin2) {
                 bet1 = bet * 2;
+                global = global + bet1;
                 System.out.println("¡Ganaste!, ahora tienes : " + bet1);
 
             } else {
-                bet2 = global - bet;
-                System.out.println("Perdiste, ahora tienes: " + bet2);
+                global = global - bet;
+                System.out.println("Perdiste, ahora tienes: " + global);
             }
             System.out.println("Quiere volver a jugar?: 1 para si, 2 para no");
             game = coin1.nextInt();
             counter = counter + 1;
         }
         System.out.println("Usted jugo: " + counter);
-        System.out.println("Su total es de :" + bet);
+        System.out.println("Su total es de :" + global);
 
         coin1.close();
 
