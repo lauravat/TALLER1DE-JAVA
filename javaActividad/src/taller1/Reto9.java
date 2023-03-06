@@ -12,7 +12,6 @@ public class Reto9 {
         int game = 1;
         int bet = 0;
         int bet1 = 0;
-        int bet2 = 0;
         int counter = 0;
         System.out.println("Ingrese la cantidad de dinero que tiene: ");
         int global = coin1.nextInt();
@@ -29,7 +28,8 @@ public class Reto9 {
             if (option1 == coin2) {
                 bet1 = bet * 2;
                 global = global + bet1;
-                System.out.println("¡Ganaste!, ahora tienes : " + bet1);
+                System.out.println("Duplico su apuesta: " + bet1); // para que sepa cuanto es lo que gano
+                System.out.println("¡Ganaste!, ahora tienes : " + global); // y aqui se muestre lo que tiene acumulado
 
             } else {
                 global = global - bet;

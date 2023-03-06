@@ -5,5 +5,21 @@
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
+    ],
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Reto8",
+            "request": "launch",
+            "mainClass": "taller1.Reto8",
+            "projectName": "TALLERJAVA1_b6438233"
+        },
+        {
+            "type": "java",
+            "name": "Reto9",
+            "request": "launch",
+            "mainClass": "taller1.Reto9",
+            "projectName": "TALLERJAVA1_b6438233"
+        }
     ]
 }
