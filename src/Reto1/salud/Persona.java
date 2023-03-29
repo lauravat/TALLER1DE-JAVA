@@ -44,18 +44,9 @@ public class Persona {
         //cuerpo metodo
         System.out.println("Su tipo de documento es: " +this.tipoDoc+ ", su numero de documento es: "+this.documento+ ", su nombre es: "+ this.nombre + ", su apellido es: "+apellido+ ", su peso es: "+peso+ "su estatura es: "+estatura+  ", su edad es: "+this.edad+ " y por ultimo su sexo es: "+this.sexo );
     }
-    public void calcularIMC(){
+    public double calcularIMC(){
         pesoActual=peso/(estatura*estatura);
-        if (pesoActual<20) {
-            System.out.println("De acuerdo a su IMC: "+pesoActual+" esta por debajo de lo ideal");
-        } 
-        else if (pesoActual>=20 || pesoActual<=25){
-            System.out.println("De acuerdo a su IMC: "+pesoActual+ " es ideal");
-        }
-        else if (pesoActual>25 ) {
-            System.out.println("De acuerdo a su IMC: "+pesoActual+ " usted tiene sobrepeso");
-
-        }
+        return pesoActual;
     }
     public void mayorEdad(){
         if (edad>=18) {

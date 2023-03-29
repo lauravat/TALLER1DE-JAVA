@@ -17,10 +17,14 @@ public class Animal {
     public Animal(String nombre, int edad){
         this.name=nombre;
         this.age=edad;
-
     }
-
-
+    //metodos accesores / get y set
+    public String getName(){
+        return name;
+    }
+    public void setName(String name){
+        this.name=name;
+    }
     //metodos
     //void significa que no retorna, que es vacio
     public void registrarAnimal(String n, int e)

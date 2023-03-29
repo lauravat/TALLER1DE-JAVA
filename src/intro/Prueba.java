@@ -27,8 +27,8 @@ public class Prueba {
 
         Movie minions=new Movie("Mi villano favorito", "Miguel", "Terror", 2.10);
 
-        
-    
+        Ave condorito=new Ave("condorito", 50, 300);
+        condorito.
     }
 
 
